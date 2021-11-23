@@ -11,10 +11,10 @@ function printIndices(items) {
 
 // 2. everyOtherItem
 function everyOtherItem(items) {
-  const result = []
+  const result = [];
   for (const i in items) {
     if (i%2 === 0) {
-      result.push(items[i])
+      result.push(items[i]);
     }
   }
   console.log(result)
@@ -24,9 +24,10 @@ function everyOtherItem(items) {
 
 // 3. smallestNItems
 function smallestNItems(items, n) {
-  const sortedItems = items.sort((a, b) => a - b)
-  const sortedNItems = sortedItems.slice(0, n)
+  const sortedItems = items.sort((a, b) => a - b);
+  const sortedNItems = sortedItems.slice(0, n);
   console.log(sortedNItems)
 }
-//ask them about this problem re: python reverse()
+
 // smallestNItems([1, 12, 4, 2], 3)
+
